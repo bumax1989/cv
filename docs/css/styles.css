@@ -919,18 +919,17 @@ textarea.form-control {
   height: 60px;
 }
 .thank-you {
-  font-weight: 200;
+  font-weight: 800;
   font-size: 67px;
   line-height: 48px;
   color: #aaaaaa;
-  font-style: italic;
   position: relative;
   top: -5px;
   text-align: center;
 }
 @media (min-width:992px) {
   .thank-you {
-    text-align: left;
+    text-align: center;
   }
 }
 /* ==========================================================
