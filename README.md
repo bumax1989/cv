@@ -1,2 +1,2 @@
 # cv
-My cv page
+This is my CV page
