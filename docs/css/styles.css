@@ -31,13 +31,13 @@ Primary use:	CV / Resume
 ! 1. General 
 ========================================================== */
 .color1 {
-  color: #249991;
+  color: #09afad;
 }
 .color2 {
-  color: #3b658a;
+  color: #303c8e;
 }
 .color3 {
-  color: #ce5f5f;
+  color: #da222b;
 }
 .font1 {
   font-family: 'Open Sans', sans-serif;
@@ -56,7 +56,7 @@ body {
   background-image: url('../img/background2.jpg');
   background-attachment: fixed;
   background-repeat: repeat-x;
-  background-color: #3b658a;
+  background-color: #303c8e;
   background-position: center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -86,14 +86,14 @@ h2 {
   margin-top: 0;
 }
 h3 {
-  color: #3b658a;
+  color: #303c8e;
 }
 .btn {
   margin-right: 3px;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  height: 30px;
+  height: 34px;
   line-height: 31px;
   font-size: 25px;
   padding-top: 0;
@@ -107,13 +107,15 @@ h3 {
   padding-left: 6px;
 }
 .btn-default {
-  background: #3b658a;
+  background: #303c8e;
   color: #fafafa;
-  border: #3b658a;
+  border: #303c8e;
+
 }
 .btn-default:hover {
-  background: #194368 !important;
+  background: #303c8e !important;
   color: #fafafa;
+
 }
 .btn-primary {
   background: #249991;
@@ -180,7 +182,6 @@ p {
 }
 @media (min-width: 768px) {
   .intro-title1 {
-    text-align: left;
     font-size: 40px;
   }
 }
@@ -200,16 +201,20 @@ p {
 @media (min-width: 768px) {
   .intro-title2 {
     font-size: 20px;
-    text-align: left;
   }
 }
 .section-title {
   text-transform: uppercase;
-  color: #2a5479;
+  color: #303c8e;
   font-weight: bold;
   font-size: 40px;
   line-height: 40px;
   padding-bottom: 20px;
+}
+@media (min-width:768px) {
+  .section-title {
+    margin-left: -15px;
+  }
 }
 @media (min-width:992px) {
   .section-title {
@@ -222,7 +227,7 @@ p {
   }
 }
 .section-item-title-1 {
-  color: #3b658a;
+  color: #303c8e;
   border-bottom: 1px solid #ccc;
   padding-bottom: 5px;
   font-weight: bold;
@@ -296,16 +301,16 @@ p {
   height: 8px;
   width: 20%;
   float: left;
-  background: #249991;
+  background: #09afad;
 }
 .top-color1 {
-  background: #249991;
+  background: #09afad;
 }
 .top-color2 {
-  background: #3b658a;
+  background: #303c8e;
 }
 .top-color3 {
-  background: #ce5f5f;
+  background: #da222b;
 }
 /* ==========================================================
 ! 5. Side Menu
@@ -512,7 +517,7 @@ p {
   -webkit-border-radius: 100%;
   width: 210px;
   height: 210px;
-  border: 5px solid #249991;
+  border: 5px solid #09afad;
   overflow: hidden;
   margin: 0 auto;
   background: #fafafa;
@@ -533,7 +538,7 @@ p {
 ! 8. Vertical Timeline
 ========================================================== */
 .timeline-wrap {
-  background: #249991;
+  background: #09afad;
   position: relative;
   z-index: 88;
 }
@@ -626,14 +631,14 @@ p {
 .job {
   font-size: 14px;
   font-weight: bold;
-  color: #999999;
+  color: #da222b;
 }
 .graduation-date,
 .job-date {
   font-size: 14px;
   font-style: italic;
   font-weight: 200;
-  color: #cd5e5e;
+  color: #da222b;
 }
 .graduation-description,
 .job-description {
@@ -672,14 +677,14 @@ p {
   list-style: none;
 }
 .progress-bar {
-  background: #249991;
+  background: #09afad;
   width: 20%;
 }
 .progress-bar-2 {
-  background: #3b658a;
+  background: #303c8e;
 }
 .progress-bar-3 {
-  background: #ce5f5f;
+  background: #da222b;
 }
 /* ==========================================================
 ! 11. Section: Portfolio
@@ -772,7 +777,7 @@ p {
   display: inline-block;
   height: 30px;
   width: 40px;
-  background: #3b658a;
+  background: #303c8e;
   color: #fafafa;
   text-align: center;
   line-height: 30px;
@@ -800,6 +805,12 @@ p {
   margin-bottom: 10px;
   position: relative;
 }
+.form-group-btn {
+  margin-bottom: 10px;
+  position: relative;
+  text-align: -webkit-center;
+}
+
 .form-group label.error {
   display: block;
   position: absolute;
@@ -816,7 +827,7 @@ p {
 }
 input.form-control,
 textarea.form-control {
-  background: #249991;
+  background: #09afad;
   border: 0px solid #35aaa2;
   padding-top: -2px;
   border-radius: 5px;
@@ -836,8 +847,8 @@ textarea.form-control {
   border-radius: 5px 5px 5px 5px;
   -moz-border-radius: 5px 5px 5px 5px;
   -webkit-border-radius: 5px 5px 5px 5px;
-  min-width: 200px;
-  background: #3b658a;
+  min-width: 50%;
+  background: #303c8e;
   color: #fff;
   display: block;
   height: 40px;
@@ -865,7 +876,7 @@ textarea.form-control {
 .contact-subtitle-1 {
   text-transform: uppercase;
   font-weight: bold;
-  color: #3b658a;
+  color: #303c8e;
   font-size: 18px;
   margin-bottom: 4px;
   margin-top: 20px;
@@ -917,7 +928,7 @@ textarea.form-control {
   padding: 10px 20px;
 }
 .modal-content .modal-title {
-  color: #3b658a;
+  color: #303c8e;
   font-size: 22px;
   border-bottom: 1px solid #ccc;
   margin-bottom: 5px;
@@ -940,7 +951,7 @@ textarea.form-control {
   font-weight: 800;
   font-size: 67px;
   line-height: 48px;
-  color: #3b6489;
+  color: #303c8e;
   position: relative;
   top: -5px;
   text-align: center;
@@ -954,7 +965,7 @@ textarea.form-control {
 ! 14. Footer
 ========================================================== */
 #footer {
-  background: #ce5f5f;
+  background: #da222b;
   color: #fff;
   padding-top: 17px;
   padding-bottom: 17px;
